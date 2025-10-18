@@ -15,11 +15,11 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 
 ---
 
-## Simulation Results
+## Simulation Results & FEMM Design
 
 
-<img width="1483" height="668" alt="image" src="https://github.com/user-attachments/assets/dea95204-ec2a-48da-b313-7123df7f01f1" />
-<img width="1919" height="1021" alt="FEA Simulation Results" src="https://github.com/user-attachments/assets/e740a4e1-ff64-42e9-bf0c-1ac8c89e6f05" />
+<img width="1461" height="668" alt="image" src="https://github.com/user-attachments/assets/cfec72b2-b3a8-43cc-928a-661d8f0f95c6" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/ba005337-75cd-40c3-8e8f-cc17606fded7" />
 
 ---
 
