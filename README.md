@@ -17,7 +17,7 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 
 ## Simulation Results
 
-The image below presents preliminary simulation results obtained during the study:
+
 
 <img width="1919" height="1021" alt="FEA Simulation Results" src="https://github.com/user-attachments/assets/e740a4e1-ff64-42e9-bf0c-1ac8c89e6f05" />
 
