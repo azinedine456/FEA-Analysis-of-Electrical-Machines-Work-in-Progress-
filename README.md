@@ -1,4 +1,4 @@
-# FEA Analysis of Electrical Machines (Work in Progress)
+# FEA Analysis of Electrical Machines using FEMM (Work in Progress)
 
 This repository documents ongoing work related to **Finite Element Analysis (FEA)** applied to various types of electrical machines. The project focuses on understanding the influence of design parameters, geometry, and winding configurations on machine performance.
 
