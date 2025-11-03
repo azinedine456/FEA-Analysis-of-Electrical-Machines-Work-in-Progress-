@@ -22,7 +22,8 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/ba005337-75cd-40c3-8e8f-cc17606fded7" />
 
 
-![Uploading image.png…]()
+<img width="1919" height="1745" alt="image" src="https://github.com/user-attachments/assets/14a5036d-8e4e-4691-9bd8-1527b683cf54" />
+
 
 
 ---
