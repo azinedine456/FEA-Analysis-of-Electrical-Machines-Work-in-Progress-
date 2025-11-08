@@ -15,7 +15,7 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 
 ---
 
-## Simulation Results & FEMM Design
+## Simulation Results & FEMM Design (EMF amplitude not to scale — shown this way to emphasize waveform shape rather than magnitude)
 
 
 <img width="1461" height="668" alt="image" src="https://github.com/user-attachments/assets/cfec72b2-b3a8-43cc-928a-661d8f0f95c6" />
