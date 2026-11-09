@@ -5,12 +5,11 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 ---
 
 ## Project Objectives
-
 - Gain a deeper understanding of **FEA techniques** and their application to electrical machines.  
 - Study the impact of **motor design and geometry** on performance metrics such as torque ripple and cogging torque.  
 - Analyze how **stator winding placement** and **pole geometry** influence the resulting EMF and overall control effectiveness.  
 - Implement **Lua scripting for FEMM** through MATLAB API for automated simulation and data extraction.
-- Evaluate different software tools (e.g., *FluxMotor Student Suite*) to compare their strengths and weaknesses relative to other Open source tools **SEE DETAILED BREAKDOWN PDF**
+- Evaluate different software tools (e.g., *FluxMotor Student Suite*) to compare their strengths and weaknesses relative to other Open source tools **See FEA Tools Breakdown for Motor Design.md  in Project Files Folder**
 # Work in Progress
 - Migrate to NGSolve and GMSH for FEA analysis. 
 - Develop a detailed **FEA model of an IPM-SynRM motor**.
