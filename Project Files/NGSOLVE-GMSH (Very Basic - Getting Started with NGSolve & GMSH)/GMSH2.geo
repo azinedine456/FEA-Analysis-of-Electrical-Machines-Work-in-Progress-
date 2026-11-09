@@ -1,0 +1,820 @@
+// Gmsh project created on Tue May 26 22:13:18 2026
+SetFactory("OpenCASCADE");
+//+
+Point(1) = {0, 0, 0, 0};
+//+
+Point(2) = {0, 0, 0, 1};
+//+
+Point(3) = {-0.2, -1, -0, 1.0};
+//+
+Point(4) = {0, 0, 0, 1.0};
+//+
+Point(5) = {0, 0, 0, 1.0};
+//+
+Point(6) = {0, 0, 0, 1.0};
+//+
+Point(7) = {0, 0, 0, 1.0};
+//+
+Point(8) = {0, 0, 0, 1.0};
+//+
+Point(9) = {0, 0, 0, 1.0};
+//+
+Point(10) = {0, 0, 0, 1.0};
+//+
+Point(11) = {0, 0, 0, 1.0};
+//+
+Point(12) = {0, 0, 0, 1.0};
+//+
+Point(13) = {0, 0, 0, 1.0};
+//+
+Point(14) = {0, 0, 0, 1.0};
+//+
+Point(15) = {0, 0, 0, 1.0};
+//+
+Point(16) = {0, 0, 0, 1.0};
+//+
+Point(17) = {20, 0, -0, 1.0};
+//+
+Point(18) = {-20, 0, -0, 1.0};
+//+
+Circle(1) = {0, 0, 0, 20, 0, 2*Pi};
+//+
+Circle(2) = {0, 0, 0, 20, 0, -2*Pi};
+//+
+Circle(3) = {0, 0, 0, 20, 0, -2*Pi};
+//+
+Circle(4) = {0, 0, 0, 20, 2*Pi, 0}; // CHANGE: Fixed typo "Pie" to "Pi"
+//+
+Circle(4) = {0, 0, 0, 20, 2*Pi, 0}; // CHANGE: Fixed typo "Pie" to "Pi"
+//+
+Circle(4) = {0, 0, 0, 20, 2*Pi, 0}; // CHANGE: Fixed typo "Pie" to "Pi"
+//+
+Circle(4) = {0, 0, 0, 20, 2*Pi, 0}; // CHANGE: Fixed typo "Pie" to "Pi"
+//+
+Circle(4) = {0, 0, 0, 20, 2*Pi, 0};
+//+
+Circle(5) = {0, 0, 0, 20, 2*Pi, 0};
+//+
+Point(24) = {0, -20, 0, 1.0};
+//+
+Point(25) = {0, 20, 0, 1.0};
+//+
+Circle(6) = {24, 25, 1};
+//+
+Circle(6) = {24, 25, 1};
+//+
+Circle(6) = {25, 24, 1};
+//+
+Circle(6) = {25, 1, 24};
+//+
+Point(26) = {-20, 0, 0, 1.0};
+//+
+Point(27) = {-19.9, 0.1, -0.5, 1.0};
+//+
+Point(28) = {-20, -0, -0.8, 1.0};
+//+
+Point(29) = {-20, -0, -0.8, 1.0};
+//+
+Point(30) = {-19.9, -0, -0.9, 1.0};
+//+
+Point(31) = {-19.9, -0, -0.9, 1.0};
+//+
+Point(32) = {-19.9, -0, -0.9, 1.0};
+//+
+Point(33) = {-20, 0, 0, 1.0};
+//+
+Point(34) = {-20, 0, 0, 1.0};
+//+
+Point(35) = {-20, 0, 0, 1.0};
+//+
+Point(36) = {-20, 0, 0, 1.0};
+//+
+Point(37) = {-20, 0, 0, 1.0};
+//+
+Point(38) = {-20, 0, 0, 1.0};
+//+
+Point(39) = {-20, 0, 0, 1.0};
+//+
+Point(40) = {-20, 0, 0, 1.0};
+//+
+Point(41) = {-20, 0, 0, 1.0};
+//+
+Point(42) = {-20, 0, 0, 1.0};
+//+
+Point(43) = {-20, 0, 0, 1.0};
+//+
+Circle(7) = {-11.9, 10.8, -0.8, 20, 0, 2*Pi};
+//+
+Recursive Delete {
+  Curve{7}; 
+}
+//+
+Recursive Delete {
+  Point{1}; 
+}
+//+
+Recursive Delete {
+  Point{2}; 
+}
+//+
+Recursive Delete {
+  Point{4}; 
+}
+//+
+Point(44) = {-20, 0, 0, 1.0};
+//+
+Point(45) = {-20, 0, 0, 1.0};
+//+
+Point(46) = {-20, 0, 0, 1.0};
+//+
+Point(47) = {-20, 0, 0, 1.0};
+//+
+Point(48) = {-20, 0, 0, 1.0};
+//+
+Point(49) = {-20, 0, 0, 1.0};
+//+
+Point(50) = {-20, 0, 0, 1.0};
+//+
+Point(51) = {-20, 0, 0, 1.0};
+//+
+Point(52) = {-20, 0, 0, 1.0};
+//+
+Point(53) = {-20, 0, 0, 1.0};
+//+
+Point(54) = {-20, 0, 0, 1.0};
+//+
+Point(55) = {-20, 0, 0, 1.0};
+//+
+Point(56) = {-20, 0, 0, 1.0};
+//+
+Point(57) = {-20, 0, 0, 1.0};
+//+
+Point(58) = {-20, 0, 0, 1.0};
+//+
+Point(59) = {-11.1, 4.1, 3, 1.0};
+//+
+Point(60) = {-17.6, 1.1, 7.1, 1.0};
+//+
+Point(61) = {-18, 2, 9.2, 1.0};
+//+
+Point(62) = {-17.8, 4.5, 9.9, 1.0};
+//+
+Point(63) = {-17.8, 4.8, 10.3, 1.0};
+//+
+Point(64) = {-15.4, 5.2, 9.6, 1.0};
+//+
+Point(65) = {-12.4, 5.1, 8.5, 1.0};
+//+
+Point(66) = {-12.4, 5.1, 8.5, 1.0};
+//+
+Point(67) = {-12.4, 5.1, 8.5, 1.0};
+//+
+Point(68) = {-12.5, 5, 8.5, 1.0};
+//+
+Point(69) = {-13.8, -1, 9.7, 1.0};
+//+
+Point(70) = {-14.9, -3, 10.2, 1.0};
+//+
+Point(71) = {-20, 0, 0, 1.0};
+//+
+Point(72) = {-20, 0, 0, 1.0};
+//+
+Point(73) = {-20, 0, 0, 1.0};
+//+
+Point(74) = {-20, 0, 0, 1.0};
+//+
+Point(75) = {-20, 0, 0, 1.0};
+//+
+Point(76) = {-20, 0, 0, 1.0};
+//+
+Point(77) = {30, 0, 0, 1.0};
+//+
+Point(78) = {1.5, 30, 0, 1.0};
+//+
+Circle(7) = {78, 5, 77};
+//+
+Circle(7) = {77, 5, 78};
+//+
+Recursive Delete {
+  Point{78}; 
+}
+//+
+Point(78) = {0, 30, 0, 1.0};
+//+
+Circle(7) = {77, 5, 78};
+//+
+Circle(8) = {24, 5, 25};
+//+
+Circle(9) = {0, 0, 0, 20, 0, 2*Pi};
+//+
+Circle(10) = {0, 0, 0, 30, 0, 2*Pi};
+//+
+Point(81) = {0, -30, 0, 1.0};
+//+
+Line(11) = {24, 81};
+//+
+Line(12) = {78, 25};
+//+
+Curve Loop(1) = {1};
+//+
+Curve Loop(2) = {1};
+//+
+Curve Loop(3) = {10};
+//+
+Plane Surface(1) = {1, 2, 3};
+//+
+Recursive Delete {
+  Curve{7}; Curve{6}; Surface{1}; 
+}
+//+
+Recursive Delete {
+  Curve{2}; 
+}
+//+
+Recursive Delete {
+  Curve{3}; 
+}
+//+
+Recursive Delete {
+  Curve{4}; 
+}
+//+
+Recursive Delete {
+  Curve{5}; 
+}
+//+
+Recursive Delete {
+  Curve{9}; 
+}
+//+
+Recursive Delete {
+  Curve{11}; Curve{12}; 
+}
+//+
+Recursive Delete {
+  Point{24}; Point{5}; Point{25}; 
+}
+//+
+Recursive Delete {
+  Point{24}; Point{25}; Point{6}; 
+}
+//+
+Recursive Delete {
+  Point{7}; 
+}
+//+
+Recursive Delete {
+  Point{8}; Point{24}; Curve{8}; Point{25}; 
+}
+//+
+Recursive Delete {
+  Point{17}; 
+}
+//+
+Recursive Delete {
+  Point{9}; 
+}
+//+
+Recursive Delete {
+  Point{10}; 
+}
+//+
+Recursive Delete {
+  Point{11}; 
+}
+//+
+Recursive Delete {
+  Point{12}; 
+}
+//+
+Recursive Delete {
+  Point{13}; 
+}
+//+
+Recursive Delete {
+  Point{14}; 
+}
+//+
+Recursive Delete {
+  Point{15}; 
+}
+//+
+Recursive Delete {
+  Point{16}; 
+}
+//+
+Point(77) = {0, 0, 0, 1.0};
+//+
+Point(78) = {19, 0, 0, 1.0};
+//+
+Point(79) = {0, 19, 0, 1.0};
+//+
+Circle(1) = {79, 77, 78};
+//+
+Point(80) = {-19, 0, 0, 1.0};
+//+
+Recursive Delete {
+  Point{78}; 
+}
+//+
+Recursive Delete {
+  Curve{1}; 
+}
+//+
+Point(81) = {0, 0, 0, 1.0};
+//+
+Recursive Delete {
+  Point{77}; 
+}
+//+
+Recursive Delete {
+  Point{81}; 
+}
+//+
+Point(81) = {0, 0, 0, 1.0};
+//+
+Point(82) = {-19, 0, 0, 1.0};
+//+
+Point(83) = {19, 0, 0, 1.0};
+//+
+Point(84) = {0, 19, 0, 1.0};
+//+
+Point(85) = {0, -19, 0, 1.0};
+//+
+Point(86) = {-19, 0, 0, 1.0};
+//+
+Recursive Delete {
+  Point{81}; 
+}
+//+
+Point(87) = {0, 0, 0, 1.0};
+//+
+Circle(1) = {0, 0, 0, 19, 0, 2*Pi};
+//+
+Circle(2) = {0, 0, 0, 19, 0, 2*Pi};
+//+
+Circle(3) = {0.3, 0, 4.7, 19, 0, 2*Pi};
+//+
+Recursive Delete {
+  Curve{3}; 
+}
+//+
+Point(90) = {29, 0, 0, 1.0};
+//+
+Point(91) = {0, 29, 0, 1.0};
+//+
+Point(92) = {0, -29, 0, 1.0};
+//+
+Point(93) = {30, 0, 0, 1.0};
+//+
+Point(94) = {0, 30, 0, 1.0};
+//+
+Point(95) = {0, -30, 0, 1.0};
+//+
+Point(96) = {50, 0, 0, 1.0};
+//+
+Point(97) = {0, -50, 0, 1.0};
+//+
+Point(98) = {0, 50, 0, 1.0};
+//+
+Circle(3) = {0, 0, 0, 20, 0, 2*Pi};
+//+
+Circle(4) = {0, 0, 0, 29, 0, 2*Pi};
+//+
+Circle(5) = {0, 0, 0, 30, 0, 2*Pi};
+//+
+Circle(6) = {0, 0, 0, 50, 0, 2*Pi};
+//+
+Recursive Delete {
+  Curve{3}; 
+}
+//+
+Rotate {{0, 1, 0}, {0, 0, 0}, Pi} {
+  Duplicata { Curve{4}; Curve{1}; Curve{5}; Curve{6}; }
+}
+//+
+Rotate {{0, 0, 0}, {0, 0, 0}, Pi} {
+  Duplicata { Curve{5}; Curve{4}; Curve{1}; Curve{6}; }
+}
+//+
+Rotate {{0, 0, 1}, {0, 0, 0}, Pi} {
+  Duplicata { Curve{1}; Curve{4}; Curve{5}; Curve{6}; }
+}
+//+
+Line(19) = {98, 91};
+//+
+Line(20) = {91, 94};
+//+
+Line(21) = {84, 91};
+//+
+Line(22) = {85, 95};
+//+
+Line(23) = {92, 85};
+//+
+Line(24) = {97, 95};
+//+
+Recursive Delete {
+  Curve{22}; 
+}
+//+
+Point(123) = {35, 0, 0, 1.0};
+//+
+Point(124) = {35, 10, 0, 1.0};
+//+
+Point(125) = {35, -10, 0, 1.0};
+//+
+Line(25) = {124, 125};
+//+
+Line(26) = {93, 125};
+//+
+Line(27) = {124, 93};
+//+
+Rotate {{0, 0, 1}, {0, 0, 0}, Pi} {
+  Duplicata { Curve{27}; Curve{25}; Curve{26}; }
+}
+//+
+Rotate {{0, 0, 1}, {0, 0, 0}, 2*Pi/3} {
+  Duplicata { Curve{27}; Curve{25}; Curve{26}; }
+}
+//+
+Rotate {{0, 0, 1}, {0, 0, 0}, Pi} {
+  Duplicata { Curve{32}; Curve{33}; Curve{31}; }
+}
+//+
+Rotate {{0, 0, 1}, {0, 0, 0}, 2*Pi/3} {
+  Duplicata { Curve{32}; Curve{31}; Curve{33}; Curve{36}; Curve{35}; Curve{34}; }
+}
+//+
+Curve Loop(1) = {1};
+//+
+Curve Loop(2) = {4};
+//+
+Curve Loop(3) = {5};
+//+
+Curve Loop(4) = {41, -42, 40};
+//+
+Curve Loop(5) = {25, -26, -27};
+//+
+Curve Loop(6) = {36, 35, -34};
+//+
+Curve Loop(7) = {38, 39, -37};
+//+
+Curve Loop(8) = {28, 30, -29};
+//+
+Curve Loop(9) = {31, 33, -32};
+//+
+Curve Loop(10) = {6};
+//+
+Plane Surface(1) = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//+
+Recursive Delete {
+  Point{59}; Point{68}; Point{64}; Point{63}; Point{61}; Point{60}; Point{69}; Point{70}; 
+}
+//+
+Recursive Delete {
+  Point{65}; Point{62}; 
+}
+//+
+Recursive Delete {
+  Point{66}; 
+}
+//+
+Recursive Delete {
+  Point{67}; 
+}
+//+
+Recursive Delete {
+  Point{55}; 
+}
+//+
+Recursive Delete {
+  Point{54}; 
+}
+//+
+Recursive Delete {
+  Point{56}; 
+}
+//+
+Recursive Delete {
+  Point{53}; 
+}
+//+
+Recursive Delete {
+  Point{46}; 
+}
+//+
+Recursive Delete {
+  Point{52}; 
+}
+//+
+Recursive Delete {
+  Point{57}; 
+}
+//+
+Recursive Delete {
+  Point{51}; 
+}
+//+
+Recursive Delete {
+  Point{41}; 
+}
+//+
+Recursive Delete {
+  Point{43}; 
+}
+//+
+Recursive Delete {
+  Point{27}; 
+}
+//+
+Recursive Delete {
+  Point{40}; 
+}
+//+
+Recursive Delete {
+  Point{42}; 
+}
+//+
+Recursive Delete {
+  Point{39}; 
+}
+//+
+Recursive Delete {
+  Point{47}; 
+}
+//+
+Recursive Delete {
+  Point{48}; 
+}
+//+
+Recursive Delete {
+  Point{38}; 
+}
+//+
+Recursive Delete {
+  Point{37}; 
+}
+//+
+Recursive Delete {
+  Point{28}; Point{44}; Point{49}; 
+}
+//+
+Recursive Delete {
+  Point{18}; 
+}
+//+
+Recursive Delete {
+  Point{26}; 
+}
+//+
+Recursive Delete {
+  Point{33}; 
+}
+//+
+Recursive Delete {
+  Point{34}; 
+}
+//+
+Recursive Delete {
+  Point{35}; 
+}
+//+
+Recursive Delete {
+  Point{36}; 
+}
+//+
+Recursive Delete {
+  Point{45}; 
+}
+//+
+Recursive Delete {
+  Point{50}; 
+}
+//+
+Recursive Delete {
+  Point{58}; Point{29}; 
+}
+//+
+Recursive Delete {
+  Point{71}; 
+}
+//+
+Recursive Delete {
+  Point{72}; 
+}
+//+
+Recursive Delete {
+  Point{73}; 
+}
+//+
+Recursive Delete {
+  Point{74}; 
+}
+//+
+Recursive Delete {
+  Point{75}; 
+}
+//+
+Recursive Delete {
+  Point{76}; 
+}
+//+
+Recursive Delete {
+  Point{30}; 
+}
+//+
+Recursive Delete {
+  Point{31}; 
+}
+//+
+Recursive Delete {
+  Point{32}; 
+}
+//+
+Curve Loop(11) = {6};
+//+
+Curve Loop(12) = {6};
+//+
+Plane Surface(2) = {11, 12};
+//+
+Curve Loop(13) = {38, 39, -37};
+//+
+Curve Loop(14) = {34, -35, -36};
+//+
+Curve Loop(15) = {25, -26, -27};
+//+
+Curve Loop(16) = {42, -41, -40};
+//+
+Curve Loop(17) = {32, -33, -31};
+//+
+Curve Loop(18) = {30, -29, 28};
+//+
+Plane Surface(3) = {13, 14, 15, 16, 17, 18};
+//+
+Curve Loop(20) = {4};
+//+
+Curve Loop(21) = {5};
+//+
+Curve Loop(22) = {4};
+//+
+Plane Surface(4) = {21, 22};
+//+
+Curve Loop(23) = {39, -37, 38};
+//+
+Plane Surface(5) = {23};
+//+
+Curve Loop(24) = {34, -35, -36};
+//+
+Plane Surface(6) = {24};
+//+
+Curve Loop(25) = {25, -26, -27};
+//+
+Plane Surface(7) = {25};
+//+
+Curve Loop(26) = {41, -42, 40};
+//+
+Plane Surface(8) = {26};
+//+
+Curve Loop(27) = {33, -32, 31};
+//+
+Plane Surface(9) = {27};
+//+
+Curve Loop(28) = {1};
+//+
+Curve Loop(29) = {4};
+//+
+Plane Surface(10) = {28, 29};
+//+
+MeshSize {109, 107} = 0.1; // CHANGE: Increased from 0.01 to 2.0 to prevent freezing
+//+
+Recursive Delete {
+  Surface{2}; 
+}
+//+
+MeshSize {109, 107, 91, 94, 93, 90, 92, 95} = 0.1; // CHANGE: Increased from 0.01 to 2.0 to prevent freezing
+//+
+Curve Loop(30) = {6};
+//+
+Curve Loop(31) = {5};
+//+
+Plane Surface(11) = {30, 31};
+//+
+Recursive Delete {
+  Surface{11}; 
+}
+//+
+Curve Loop(30) = {6};
+//+
+Curve Loop(31) = {29, -30, -28};
+//+
+Curve Loop(32) = {5};
+//+
+Curve Loop(33) = {37, -39, -38};
+//+
+Curve Loop(34) = {35, -34, 36};
+//+
+Curve Loop(35) = {26, -25, 27};
+//+
+Curve Loop(36) = {41, -42, 40};
+//+
+Curve Loop(37) = {33, -32, 31};
+//+
+Plane Surface(11) = {30, 31, 32, 33, 34, 35, 36, 37};
+//+
+Recursive Delete {
+  Surface{11}; 
+}
+//+
+Curve Loop(30) = {6};
+//+
+Curve Loop(31) = {5};
+//+
+Plane Surface(11) = {30, 31};
+//+
+Curve Loop(32) = {4};
+//+
+Recursive Delete {
+  Surface{1}; 
+}
+//+
+Recursive Delete {
+  Point{3}; 
+}
+//+
+Circle(43) = {0, 0, 0, 5, 0, 2*Pi};
+//+
+Curve Loop(33) = {1};
+//+
+Curve Loop(34) = {43};
+//+
+Plane Surface(12) = {33, 34};
+//+
+Recursive Delete {
+  Surface{11}; 
+}
+//+
+Recursive Delete {
+  Surface{4}; 
+}
+//+
+Field[1] = Curvature;
+//+
+Curve Loop(35) = {9};
+//+
+Curve Loop(36) = {4};
+//+
+Plane Surface(13) = {35, 36};
+//+
+Curve Loop(37) = {10};
+//+
+Curve Loop(38) = {29, -30, -28};
+//+
+Curve Loop(39) = {9};
+//+
+Curve Loop(40) = {31, 33, -32};
+//+
+Curve Loop(41) = {41, -42, 40};
+//+
+Curve Loop(42) = {27, 26, -25};
+//+
+Curve Loop(43) = {37, -39, -38};
+//+
+Curve Loop(44) = {34, -35, -36};
+//+
+Plane Surface(14) = {37, 38, 39, 40, 41, 42, 43, 44};
+//+
+Recursive Delete {
+  Surface{13}; 
+}
+//+
+Curve Loop(45) = {9};
+//+
+Curve Loop(46) = {4};
+//+
+Plane Surface(15) = {45, 46};
+//+
+Recursive Delete {
+  Surface{15}; 
+}
+//+
+Curve Loop(45) = {4};
+//+
+Curve Loop(46) = {9};
+//+
+Plane Surface(15) = {45, 46};
+//+
+Delete Field [1];
+//+
+Recursive Delete {
+  Curve{19}; 
+}
+//+
+Recursive Delete {
+  Curve{20}; 
+}
+//+
+Point(157) = {0, 30, 0, 1.0};
+//+
+Point(158) = {0, 50, 0, 1.0};
+//+
+Line(44) = {158, 157};
