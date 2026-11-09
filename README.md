@@ -9,9 +9,13 @@ This repository documents ongoing work related to **Finite Element Analysis (FEA
 - Gain a deeper understanding of **FEA techniques** and their application to electrical machines.  
 - Study the impact of **motor design and geometry** on performance metrics such as torque ripple and cogging torque.  
 - Analyze how **stator winding placement** and **pole geometry** influence the resulting EMF and overall control effectiveness.  
-- Perform **FEA-based analysis** on **squirrel cage induction motors** and studying the impact of rotor bar skew on perfomance.  
-- Implement **Lua scripting for FEMM** through MATLAB for automated simulation and data extraction.  
-- **Long-term objective:** Evaluate different software tools (e.g., *FluxMotor Student Suite*) to compare their strengths and weaknesses relative to FEMM, and develop a detailed **FEA model of an IPM-SynRM motor**.
+- Implement **Lua scripting for FEMM** through MATLAB API for automated simulation and data extraction.
+- Evaluate different software tools (e.g., *FluxMotor Student Suite*) to compare their strengths and weaknesses relative to other Open source tools **SEE DETAILED BREAKDOWN PDF**
+# Work in Progress
+- Migrate to NGSolve and GMSH for FEA analysis. 
+- Develop a detailed **FEA model of an IPM-SynRM motor**.
+- Perform **FEA-based analysis** on squirrel cage induction motors and studying the impact of **rotor bar skew** on model accuracy and performance.  
+
 
 ---
 
